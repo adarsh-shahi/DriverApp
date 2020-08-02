@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fleet24hours">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hours"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Thank you for your interest we will contact you in next 24 hours."
+            android:textAlignment="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/help"
+            android:textColor="@color/orange"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Need Help? Contact Here"/>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerificationID">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optButton"
+        android:layout_marginTop="20dp"
+        android:hint="Enter OTP"
+        android:background="@color/white"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:id="@+id/et_otp"
+        android:gravity="center"
+        android:inputType="phone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_otp"
+        android:background="@drawable/custom_login_button"
+        android:text="VERIFY"
+        android:textSize="18sp"
+        android:id="@+id/buttonOTP"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonOTP"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progressBar"/>
+
+
+</RelativeLayout>

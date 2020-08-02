@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "762078288793",
+    "firebase_url": "https://trago-driver.firebaseio.com",
+    "project_id": "trago-driver",
+    "storage_bucket": "trago-driver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762078288793:android:21972790e267f4c8d45108",
+        "android_client_info": {
+          "package_name": "com.example.trago_driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762078288793-kshhfgc16ful91m4inth3b7gqkl5on7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCayKU6brUcqN1gcECL_NX8ozMrAVuV_p4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762078288793-kshhfgc16ful91m4inth3b7gqkl5on7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

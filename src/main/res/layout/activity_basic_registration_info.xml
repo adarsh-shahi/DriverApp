@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".BasicRegistrationInfo">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:id="@+id/et_name"
+        android:layout_marginTop="10dp"
+        android:maxLength="25"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:background="@color/white"/>
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_city"
+        android:layout_below="@+id/et_name"
+        android:hint="Enter City"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"
+
+        android:maxLength="15"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:completionThreshold="1"
+        android:completionHint="Select a city"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_mail"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/et_city"
+        android:background="@color/white"
+        android:hint="Enter Mail (optional)"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_mail"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/phoneNumberLayout"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp">
+
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="+91"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"
+        android:maxLength="10"
+        android:id="@+id/et_phone"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:hint="Enter Phone Number"
+        android:padding="10dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNumberLayout"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/optButton"
+        android:layout_marginRight="100dp"
+        android:text="SEND OTP"
+        android:textSize="18sp"
+
+        android:background="@drawable/custom_login_button"/>
+
+
+
+
+
+
+
+</RelativeLayout>
